@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #ddf0fc;
+    
+    color: #242424;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 20px 0 20px;
+}
+
+h4 {
+    color: #914b2c;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+
+/* ----------------------------------------------------------- Header ---------------------------------------------------------------- */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 400px;
+
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 15px;
+}
+
+nav a.red-underline {
+    border-bottom: 1.35px solid #e91e23;
+}
+
+nav a.red-underline:hover, nav a.red-underline:focus { 
+    color: #e91e23;
+}
+
+nav a.blue-underline {
+    border-bottom: 1.35px solid #02b2e7;
+}
+
+nav a.blue-underline:hover, nav a.blue-underline:focus { 
+    color: #02b2e7;
+}
+
+nav a.yellow-underline {
+    border-bottom: 1.35px solid #fabc16;
+}
+
+nav a.yellow-underline:hover, nav a.yellow-underline:focus { 
+    color: #fabc16;
+}
+
+main {
+    width: 80%;
+    height:auto; 
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------------------- About ---------------------------------------------------------------- */
+#about {
+    padding: 30px 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------------------------------- Characters ----------------------------------------------------------- */
+#characters {
+    padding: 30px 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+#characters .grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 50px;
+}
+
+#characters img {
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+/* ----------------------------------------------------------- Memorable Moments --------------------------------------------------- */
+#memorable-moments {
+    padding: 30px 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+#memorable-moments .grid-container {
+    display: grid;
+    align-items: end;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 50px;
+}
+
+#memorable-moments img {
+    width: 450px;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #914b2c;
+}
+
+#memorable-moments p {
+    color: #914b2c;
+    margin-top: 5px;
+    font: 16px;
+}
+
+/* ----------------------------------------------------------- Footer ------------------------------------------------------------- */
+footer {   
+    width: 80%;
+    height: auto; 
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+footer p {
+    color: #999;
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px;
+}
